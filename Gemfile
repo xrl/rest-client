@@ -7,5 +7,7 @@ else
 end
 
 group :test do
-  gem 'rake'
+  gem 'irb'
+  gem 'rake', '~> 11.0'
+  gem 'pry-byebug'
 end
